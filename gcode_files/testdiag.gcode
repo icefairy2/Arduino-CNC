@@ -1,0 +1,22 @@
+G90 (absolute mode)
+G92 X0.00 Y0.00 Z0.00 (you are here)
+
+M300 S30 (pen down)
+G4 P150 (wait 150ms)
+M300 S50 (pen up)
+G4 P150 (wait 150ms)
+
+(Polyline consisting of 5 segments.)
+G1 X15.48 Y14.22 F3500.00
+M300 S30.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X15.48 Y11.79 F3500.00
+G1 X15.48 Y9.35 F3500.00
+G1 X11.75 Y9.35 F3500.00
+G1 X8.02 Y9.35 F3500.00
+G1 X8.02 Y11.79 F3500.00
+G1 X8.02 Y14.22 F3500.00
+G1 X11.75 Y14.22 F3500.00
+G1 X15.48 Y14.22 F3500.00
+M300 S50.00 (pen up)
+G4 P150 (wait 150ms)
